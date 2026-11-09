@@ -1,0 +1,21 @@
+# Never commit configuration or credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DS_Store
+node_modules/
+dist/
+build/
+coverage/
+.vscode/
+.idea/
+*.local
+supabase/.branches/
+supabase/.temp/
+# Do not publish Activepieces exports without removing embedded tokens or approval links
+activepieces-exports/
